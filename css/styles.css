@@ -127,3 +127,23 @@ address p {
 }
 
 /* FOOTER CONTENT */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px rgb(216, 216, 216) solid;
+}
+
+h4:first-child {
+    margin-right: auto;
+}
+
+h4:last-child {
+    text-transform: uppercase;
+    font-size: .75rem;
+    align-self: center;
+}
+
+h4 {
+    padding: .75rem;
+}
