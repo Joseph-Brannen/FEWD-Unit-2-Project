@@ -81,9 +81,9 @@ section img {
     width: 90%; 
 }
 
-section h2, aside h3 { 
-    font-size: 1.25rem; 
-    font-weight: 600; 
+section h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 section h2, aside h3, address p {
@@ -95,11 +95,16 @@ section p {
     margin-bottom: 1.75rem;
 }
 
+.calculator {
+    padding-bottom: 1.5rem;
+}
+
 aside { 
     padding-bottom: 3rem;
 }
 
 aside h3 {
+    font-size: .9rem;
     font-weight: bolder;
     margin: 4rem auto 1rem;
 }
