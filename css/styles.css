@@ -97,7 +97,7 @@ aside h3 {
     text-transform: uppercase;
     font-size: .9rem;
     font-weight: bolder;
-    margin: 3rem auto 1rem;
+    margin: 4rem auto 1rem;
 }
 
 aside p {
@@ -126,6 +126,7 @@ address p {
     margin-right: 1.5rem;
 }
 
+
 /* FOOTER CONTENT */
 
 footer {
@@ -146,4 +147,5 @@ h4:last-child {
 
 h4 {
     padding: .75rem;
+    margin-bottom: 1rem;
 }
