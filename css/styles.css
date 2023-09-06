@@ -2,6 +2,10 @@
     box-sizing: border-box; 
 }
 
+html {
+    font-family: 'Dosis', sans-serif;  
+}
+
 body {
     margin: 0;
 }
@@ -69,7 +73,7 @@ header, main, section, .marketing, .search, .travel, .map, .photo-gallery, .calc
 }
 
 .portfolio { 
-    font-size: .85rem;
+    font-size: .95rem;
     margin: 3rem auto;
 }
 
@@ -114,9 +118,12 @@ aside p, h4 {
 }
 
 address {
+  width: 90%;
+  margin: 0 auto;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; 
+  align-content: center;
 }
 
 address p {
@@ -144,7 +151,7 @@ h4:first-child {
 }
 
 h4:last-child {
-    font-size: .75rem;
+    font-size: .9rem;
 }
 
 h4 {
