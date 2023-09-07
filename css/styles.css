@@ -144,12 +144,17 @@ h4 {
 
 /* MEDIA QUERIES */ 
 
-@media screen and (min-width: 450px) and (max-width: 768px) {
+@media screen and (min-width: 450px) and (max-width: 767px) {
     p {
-        max-width: 450px;
+        max-width: 400px;
         margin-left: auto; 
         margin-right: auto;
         text-align: center;
+    }
+
+    ul {
+        max-width: 625px;
+        margin: 2rem auto;
     }
 
     main {
@@ -157,6 +162,6 @@ h4 {
     }
 
     h4 {
-        margin: 0 3.5rem;
+        margin: 0 4rem;
     }
 }
