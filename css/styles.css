@@ -264,3 +264,41 @@ h4 {
     font-size: 1.2rem;
   }
 }
+
+
+
+@media screen and (min-width: 1024px) {
+
+/* HEADER CONTENT */    
+  h1, nav {
+    flex: 1 48%;
+  }
+
+  h1 {
+    text-align: start;
+    font-size: 1.75rem;
+    padding-top: 0;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  ul {
+    justify-content: flex-end;
+    margin-right: 2rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  header p {
+   padding: 0 3rem 0 2rem;
+   font-size: 1.35rem; 
+  }
+
+  .header-img {
+    flex-basis: 200px;
+    margin-right: 2rem;
+  }
+
+}
