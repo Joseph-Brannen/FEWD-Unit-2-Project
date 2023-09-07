@@ -139,3 +139,24 @@ footer {
 h4 {
     margin: 0 1rem;
 }
+
+
+
+/* MEDIA QUERIES */ 
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+    p {
+        max-width: 450px;
+        margin-left: auto; 
+        margin-right: auto;
+        text-align: center;
+    }
+
+    main {
+        max-width: 625px;
+    }
+
+    h4 {
+        margin: 0 3.5rem;
+    }
+}
