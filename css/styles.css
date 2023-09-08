@@ -140,6 +140,11 @@ h4 {
     margin: 0 1rem;
 }
 
+h4:last-child {
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
 
 
 /* MEDIA QUERIES */ 
@@ -268,37 +273,85 @@ h4 {
 
 
 @media screen and (min-width: 1024px) {
+  body {
+    background-color: #F8F9FA;
+  }
 
 /* HEADER CONTENT */    
+  header {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
   h1, nav {
     flex: 1 48%;
   }
-
   h1 {
     text-align: start;
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     padding-top: 0;
     margin-top: 1.5rem;
     margin-left: 2rem;
   }
-
   ul {
     justify-content: flex-end;
     margin-right: 2rem;
   }
-
   a {
     font-size: 1rem;
   }
-
   header p {
-   padding: 0 3rem 0 2rem;
-   font-size: 1.35rem; 
+   padding: 0 2.25rem 0 2rem;
+   font-size: 1.35rem;
+   flex-grow: 2; 
   }
-
   .header-img {
     flex-basis: 200px;
     margin-right: 2rem;
+  }
+
+/* MAIN CONTENT */ 
+  main {
+    width: 95%; 
+    padding-top: 2rem;
+    background-color: white;
+  }  
+  .portfolio {
+    font-size: 1.1rem;
+  }
+  section {
+    flex-basis: 30%;
+  }
+  h2 {
+    margin-bottom: .5rem;
+    font-size: 1.3rem;
+  }
+  section p {
+    padding: 0 .75rem;
+    font-size: 1.15rem;
+  }
+
+
+/* ASIDE */
+  .aside {
+    padding-bottom: 5rem;
+  }
+  .contact {
+    font-size: 1.1rem;
+  } 
+  aside p {
+    padding: .5rem 12rem 1rem;
+  }
+  .phone, .email {
+    padding: .3rem 0;
+  }
+
+
+/* FOOTER */
+  footer {
+    padding: 1.5rem 2.5rem;
+  }
+  h4 {
+    font-size: 1.1rem;
   }
 
 }
