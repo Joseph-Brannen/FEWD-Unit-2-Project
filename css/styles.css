@@ -172,7 +172,7 @@ footer ul {
 }
 
 .item1 a {
-    font-size: .9rem;
+    font-size: .85rem;
 }
 
 .item2, .item3, .item4 {
@@ -273,25 +273,26 @@ footer ul {
     flex-basis: 100%;
   }
   .portfolio {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   section {
     flex: 1 50%;
-    padding: 0 .5rem 3rem;
+    padding: 0 .5rem 2rem;
   }
   section p {
     padding: 0 2rem;
     margin-top: .5rem;
+    font-size: 1.1rem;
   }
   h2 {
     margin-bottom: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
 
   /* ASIDE */ 
   .contact {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   aside p {
     max-width: 850px;
@@ -300,6 +301,7 @@ footer ul {
   }
   .phone, .email {
     padding: .5rem 0; 
+    font-size: 1.15rem;
   }
 
 
@@ -402,7 +404,7 @@ footer ul {
     padding-bottom: 5rem;
   }
   .contact {
-    font-size: 1.1rem;
+    font-size: 1rem;
   } 
   aside p {
     padding: .5rem 12rem 1rem;
