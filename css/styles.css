@@ -129,6 +129,7 @@ address {
 
 /* FOOTER */
 
+/*
 footer {
     display: flex;
     justify-content: space-between; 
@@ -144,6 +145,41 @@ h4:last-child {
     text-transform: uppercase;
     font-size: .9rem;
 }
+*/
+
+footer {
+    border-top: 1px solid lightgrey;
+}
+
+footer ul {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.name {
+    padding-left: 1rem;
+    margin-right: auto;
+}
+
+.name a {
+    text-transform: capitalize;
+}
+
+.item1 {
+    order: 1;
+    padding-right: 1rem;
+    text-transform: uppercase;
+}
+
+.item1 a {
+    font-size: .9rem;
+}
+
+.item2, .item3, .item4 {
+    display: none;
+}
+
+
 
 
 
@@ -169,6 +205,12 @@ h4:last-child {
     h4 {
         margin: 0 4rem;
     }
+
+    footer ul {
+        max-width: 100%;
+        margin: 1rem 1rem;
+    }
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -262,12 +304,36 @@ h4:last-child {
 
 
   /* FOOTER */ 
+ 
+/*  
   footer {
     padding: 2rem 2rem 4rem;
   }
   h4 {
     font-size: 1.2rem;
   }
+*/
+ 
+  footer ul {
+    margin: 1.5rem 0;
+  }
+  .footer-list li {
+    background-color: white;
+  }
+  
+  .item1 {
+    display: none;
+  }
+
+  .item2, .item3, .item4 {
+    display: initial;
+  }
+  
+  .item2 a, .item3 a, .item4 a {
+    font-size: .9rem;
+  }
+
+  
 }
 
 
@@ -348,10 +414,14 @@ h4:last-child {
 
 /* FOOTER */
   footer {
-    padding: 1.5rem 2.5rem;
+    padding: 1rem 2rem;
   }
   h4 {
     font-size: 1.1rem;
+  }
+
+  .footer-list li {
+    background-color: #F8F9FA;;
   }
 
 }
