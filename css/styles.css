@@ -355,3 +355,25 @@ h4:last-child {
   }
 
 }
+
+@media screen and (min-width: 1200px) {
+    header {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    header p {
+        margin-right: 3rem;
+    }
+    .header-img {
+        margin-left: 3rem;
+    }
+    .aside {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+    footer {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    
+}
